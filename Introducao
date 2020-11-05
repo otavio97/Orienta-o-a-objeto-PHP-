@@ -1,0 +1,25 @@
+//A principio a linguagem orientada a objeto chegou na minha vida para a organização do meu codigo  
+//E para continuar nesse caminho esse modelo de programação e muito importante 
+//Na maneira antiga de programar o codigo ficava separado e os dados soltos vamos organizar isto agora 
+
+#CLASSES E OBJETOS
+
+//A ideia e eu tenho uma classe a partir desta classe eu crio meu objeto e a partir disso eu monto a programação de todo meu sistema
+
+<?php
+Class Conta {
+    //definir uma conta
+    public $cpftitular;
+    public $nometitular;
+    public $saldo;
+    //os atributos vao ser atribuidos apenas no objeto
+}
+
+$novaconta = new Conta();
+ //objeto ou instancia: contem apenas o endereço de onde a conta foi criada
+$novaconta -> cpftitular = '131.452.716-95';
+$novaconta-> nometitular = 'Otavio Augusto Portela Luciano';
+$novaconta-> saldo =450;
+var_dump($novaconta);
+?>
+//resumindo a nossa classe e a planta e o objeto e a casa a ser construida
